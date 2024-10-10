@@ -87,7 +87,7 @@ int main(int argc, char* argv[]) {
   AbstractFactory* cf2 = new ConcreateFactory2();
   AbstractProductA* productA2 = cf2->createProductA();
   productA2->checkProduct();
-  AbstractProductB* productB2 = cf1->createProductB();
+  AbstractProductB* productB2 = cf2->createProductB();
   productB2->checkProduct();
 
 }
